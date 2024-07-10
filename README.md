@@ -1,4 +1,4 @@
-# Stack
+# Lifoer
 
 Lightweight implementation of stacks in TypeScript.
 
