@@ -1,6 +1,7 @@
 import { Stack } from '../../types';
 export declare class ArrayStack<T> implements Stack<T> {
     private stack;
+    private pointer;
     constructor();
     push(value: T): this;
     pop(): T | null;

@@ -1,6 +1,7 @@
 import { Stack } from '../../types';
 export declare class CircularSinglyLinkedListStack<T> implements Stack<T> {
-    private stack;
+    private readonly stack;
+    private pointer;
     constructor();
     push(value: T): this;
     pop(): T | null;
