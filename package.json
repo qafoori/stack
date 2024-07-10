@@ -1,6 +1,6 @@
 {
   "name": "lifoer",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "An implementation of stacks in TypeScript for nodejs and browser",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "private": false,
   "repository": {
-    "url": "https://github.com/qafoori/stack",
+    "url": "git+https://github.com/qafoori/stack.git",
     "type": "git"
   },
   "author": {
@@ -46,7 +46,7 @@
     "publish": "npm publish --access public",
     "clean": "rimraf dist tsconfig.tsbuildinfo .rollup.cache",
     "lint:ts": "eslint ./lib --ext .ts,.tsx --fix --quiet",
-    "lint:staged": "./node_modules/.bin/lint-staged",
+    "lint:staged": "lint-staged",
     "prettify:check": "npx prettier --check .",
     "prettify:write": "npx prettier --write .",
     "prepare": "husky install",
